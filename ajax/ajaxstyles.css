@@ -1,0 +1,16 @@
+body section {
+    width:60%;
+    font-size: 2em;
+    font-family: Arial;
+}
+#Testdiv input {
+    width: 300px;
+    height: auto;
+    font-size: 1em;
+}
+#txtHint {
+    color: red;
+}
+button {
+    color: lawngreen;
+}

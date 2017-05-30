@@ -1,0 +1,91 @@
+* {
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box; 
+  }
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  height:100%;
+  width:100%
+}
+body {
+    background: url(twitterBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.bodyBackground {
+    width: 75%;
+    height: auto;
+    overflow: auto;
+    margin: auto;
+    background-color: rgba(255,255,255,.9);
+    margin: 0 auto;
+    padding: 25px 50px
+}
+#news {
+    width: 10%;
+    position: absolute;
+}
+#soccer {
+    width: 10%;
+    position: absolute;
+}
+#football {
+    width: 10%;
+    position: absolute;
+}
+#sports {
+    width: 10%;
+    position: absolute;
+}
+#entertainment {
+    width: 10%;
+    position: absolute;
+}
+#politics {
+    width: 10%;
+    position: absolute;
+}
+#weather {
+    width: 10%;
+    position: absolute;
+}
+#food {
+    width: 10%;
+    position: absolute;
+}
+#rightColumn {
+    position: relative;
+    float: left;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 45%;
+}
+#leftColumn {
+    position: relative;
+    float: left;
+    padding-top: 10%;
+    width: 45%;
+}
+img {
+    width: 100%;
+}
+a {
+    padding: 5%;
+    border-color: black;
+    text-align: center;
+    color: white;
+    background-color: #307fc2;
+    font-size: 3em;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}

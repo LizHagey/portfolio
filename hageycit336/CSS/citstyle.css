@@ -1,0 +1,28 @@
+
+/* 
+    Created on : Apr 27, 2016, 8:44:43 PM
+    Author     : Liz
+*/
+body {
+    width: 70%;
+    margin: auto;
+}
+.browser {
+    color:#801815;
+}
+footer {
+    background:#116416;
+    height:60px;
+    clear:both;
+   
+}
+footer ul li a {
+    color:white;
+    padding-top: 10px;
+    margin-top:10px;
+    
+}
+footer ul li {
+    float:left;
+    margin:15px;
+}

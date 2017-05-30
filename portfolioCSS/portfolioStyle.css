@@ -1,0 +1,674 @@
+/* 
+    Created on : Mar 29, 2016, 4:59:49 PM
+    Author     : Liz
+*/
+
+* {
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box; 
+  }
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  height:100%;
+  width:100%
+}
+header {
+    height: auto;
+    width: 100%;
+    padding-left: 50px;
+}
+body {
+    background: url(/media/orangeBackgroundTwo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.bodyBackground {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.bodyBackground p h1 h2 h3 h4 {
+    color: white;
+}
+h1 {
+    color: #fff;
+}
+h3 {
+    color: #fff;
+}
+p {
+    color: #fff;
+}
+#hinge {
+    color: #fff;
+}
+#rubberBand {
+    color: #fff;
+    margin-top:100px;
+}
+@font-face {
+    font-family: Bleeding_Cowboys;
+    src: url(/fonts/Bleeding_Cowboys.ttf);
+}
+#pageOne {
+    display: block;
+    width: 33%;
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#firstPageHeading {
+    width: 100%;
+
+}
+
+#subPages {
+    display: block;
+    width: 25%;
+    margin-left: 25px;;
+    
+}
+#subPageHeading {
+    width: 100%;
+    padding-top: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: #E99F12;
+}
+main {
+    padding: 2em;
+}
+.aboutMeHead {
+    background-color: #44BF19;
+    padding: 1%;
+}
+.aboutList {
+    color: #fff;
+}
+#myPhoto {
+    width: 30%;
+    margin-left:70%;
+}
+nav {
+      width:100%;
+  }
+  .navCircle {
+      width: 150px;
+      height: 150px;
+      background: black;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+      border-radius: 75px;
+      float: left;
+      padding: 3em;
+      margin-left: 2%;
+      margin-top: 2%;
+      margin-bottom: .5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .navCircle a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2em;
+  }
+  #posters {
+      width: 80%;
+  }
+  #logoDesigns {
+      width: 40%;
+  }
+  footer {
+    width: 100%;
+    margin-left: 25px;
+    clear:both;
+    float: left;
+    bottom: 0;
+}
+
+footer ul li a {
+    color:#939393;
+    padding-top: 10px;
+    margin-top:10px;
+    text-decoration: none;
+    
+}
+footer ul li {
+    float:left;
+    margin:15px;
+    
+}
+/*Project Page Styles*/
+.projectsPhoto {
+    width: 70%;
+    margin-left: 15%;
+}
+#projectsHead {
+    color: #fff;
+    margin-left: 15%;
+}
+.projectsPara {
+    color: #fff;
+    margin-left: 15%;
+}
+
+/*AJAX Styles*/
+body section {
+    width:80%;
+    font-size: 2em;
+    font-family: Arial;
+}
+#Testdiv input {
+    width: 300px;
+    height: auto;
+    font-size: 1em;
+}
+#txtHint {
+    color: red;
+}
+#Testdiv {
+    color: yellow;
+}
+#JSONdiv {
+    color: yellow;
+}
+
+/*JavaScript styles*/
+
+.tableStyle1 {
+    border: 10px solid #cc3399; 
+}
+.thStyle1 {
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
+.tableStyle2 {
+    border: 2px dashed;
+    color: yellow;
+}
+.thStyle2 {
+    font-family: "Times New Roman";
+ }
+ .testStyle {
+     color:#cc3399;
+ }
+ th {
+    color: white;
+}
+td {
+    color: white;
+}
+.button {
+    height: 40px;
+    background-color: #303951;
+    color: white;
+}
+span {
+    color: white;
+}
+#jscalc {
+    width: 90%;
+    padding: 1em;
+}
+#input {
+    float: right;
+    width: 12em;
+    margin-bottom: .5em;
+}
+
+/*Transformation styles*/
+#square {
+    width: 100px;
+    height: 100px;
+    background: #3DADCB;
+    -webkit-transition: width 10s;
+    transition: 10s;
+}
+#square:hover {
+    width: 300px;
+}
+#square2 {
+    width: 100px;
+    height: 100px;
+    background:#801815;
+    -webkit-transition-duration: width 5s;
+    transition-duration: 5s;
+    -webkit-transition-delay: width 2s;
+    transition-delay: 2s;
+}
+#square2:hover {
+    width: 600px;
+}
+#rect {
+    width: 100px;
+    height: 250px;
+    background: #174553;
+}
+#rect:hover {
+    box-shadow:20px 20px 10px gray; 
+    -webkit-transition-duration: width 5s;
+    transition-duration: 5s;
+}
+#square3 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+#square3:hover {
+    width: 200px;
+    height:200px;
+    background: #86c98a;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transition-timing-function: ease;
+}
+#square4 {
+    width: 100px;
+    height: 100px;
+    background:orange;
+}
+#square4:hover {
+    -ms-tranform:  translateY(-400px); /* IE 9 */
+    -webkit-transform:  translateY(-400px); /* Chrome, Safari, Opera */
+    transform: translateY(-400px);
+    -moz-transform:  translateY(-400px);
+    -webkit-transition-duration: width 5s;
+    transition-duration: 5s;
+    background: red;
+}
+#square5 {
+    width: 100px;
+    height: 100px;
+    background:#aa6d39;
+}
+#square5:hover {
+    -ms-tranform:  translateX(400px); /* IE 9 */
+    -webkit-transform:  translateX(400px); /* Chrome, Safari, Opera */
+    transform: translateX(400px);
+    -moz-transform:  translateX(400px);
+    -webkit-transition-duration: width 5s;
+    transition-duration: 5s;
+    border-radius: 50%;
+}
+
+  /*mobile handheld device*/
+  @media only screen and (min-width:20em/*320px*/) and (max-width:22.25em/*360px*/){
+         .bodyBackground {
+          width: 90%;
+          padding: 1%;
+      }
+      #rubberBand {
+          font-size: 1.5em;
+         
+          clear: both;
+      }
+      #hinge {
+          font-size: 1.5em;
+          clear: both;
+      }
+#pageOne {
+    display: block;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#pageOne {
+    width: 70%;
+}
+
+#subPages {
+    display: block;
+    width: 70%;
+    margin-left: 5px;
+    
+}
+
+.navCircle {
+      width: 75px;
+      height: 75px;
+      margin-left: 6%;
+      margin-top: .2%;
+ 
+  }
+.navCircle a {
+      color: #fff;
+      text-decoration: none;
+      font-size: .8em;
+  }
+#myPhoto {
+    width: 80%;
+    margin: auto;
+}
+#logoDesigns {
+    width: 90%;
+}
+#banners{
+      width: 80%;
+  }
+  .windowGraphics {
+      width: 80%;
+  }
+
+} 
+
+ @media only screen and (min-width:22.25em/*361px*/) and (max-width:30em/*480px*/) {
+         .bodyBackground {
+          width: 90%;
+          padding: 1%;
+      }
+      #rubberBand {
+          font-size: 1.5em;
+         
+          clear: both;
+      }
+      #hinge {
+          font-size: 1.5em;
+          clear: both;
+      }
+#pageOne {
+    width: 70%;
+}
+
+#subPages {
+    display: block;
+    width: 70%;
+    margin-left: 5px;
+    
+}
+
+.navCircle {
+      width: 110px;
+      height: 110px;
+      margin-left: 6%;
+      margin-top: .2%;
+ 
+  }
+.navCircle a {
+      color: #fff;
+      text-decoration: none;
+      font-size: .8em;
+  }
+#myPhoto {
+    width: 80%;
+    margin: auto;
+}
+  #logoDesigns {
+      width: 80%;
+  }
+  #banners{
+      width: 80%;
+  }
+  .windowGraphics {
+      width: 80%;
+  }
+ }
+
+@media only screen and (min-width:481px/*481px*/) and (max-width:40em/*640px*/) {
+        .bodyBackground {
+          width: 90%;
+          padding: 1%;
+      }
+      #rubberBand {
+          font-size: 1.5em;
+         
+          clear: both;
+      }
+      #hinge {
+          font-size: 1.5em;
+          clear: both;
+      }
+#pageOne {
+    display: block;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#pageOne {
+    width: 50%;
+}
+
+#subPages {
+    display: block;
+    width: 40%;
+    margin-left: 5px;
+    
+}
+
+.navCircle {
+      width: 75px;
+      height: 75px;
+      margin-left: 1%;
+      margin-top: .2%;
+ 
+  }
+.navCircle a {
+      color: #fff;
+      text-decoration: none;
+      font-size: .8em;
+  }
+  img {
+          width: 100%;
+          height: auto;
+      }
+      div img {
+          width: 100%;
+          height: auto;
+      }
+      .description p {
+          width: 100%;
+          height: auto;
+          margin: 15px 0px 15px 0px;
+          padding-left: 0px;
+      }
+      form textarea {
+          width:100%;
+          height: auto;
+      }
+      form input{
+          width: 100%;
+          height: auto;
+      }
+       .resources {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+         
+      }
+#myPhoto {
+    width: 60%;
+    margin-left: 40%;
+}
+      #logoDesigns {
+      width: 80%;
+  }
+  #banners{
+      width: 80%;
+  }
+  .windowGraphics {
+      width: 80%;
+  }
+ }
+ 
+ 
+   @media only screen and (min-width:28.8125em/*421px*/) and (max-width:30em/*480px*/) {
+
+ }
+   @media only screen and (min-width:30.0625em /*481px*/) and (max-width:33.75 /*540px*/) {
+
+ }
+ /*22.25em = 360px  30em = 480px*/
+  /*portrait handheld device*/
+@media only screen and (min-width:33.8125em /*541px*/) and (max-width:40em/*640px*/) {
+ 
+  }
+  
+  /*Tablets*/
+  @media only screen and (min-width:641px) and (max-width:768px) {
+      .bodyBackground {
+          width: 85%;
+          padding: 1%;
+      }
+       header {
+          height:100px;
+      }
+#pageOne {
+    display: block;
+    width: 50%;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#subPages {
+    display: block;
+    width: 30%;
+    margin-left: 5px;
+    
+}
+
+.navCircle {
+      width: 120px;
+      height: 120px;
+      margin-left: 3%;
+      margin-top: .5%;
+ 
+  }
+.navCircle a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+  }
+
+#myPhoto {
+    width: 50%;
+    margin-left: 50%;
+}
+      nav ul li a{
+          padding: 20px;
+          margin: 0;
+      }
+       nav ul ul li a {
+          padding: 5%;
+      }
+      #mainImageCaption {
+          font-size: .85em;
+      }
+       figure {
+          width: 100%;
+          margin: 0;
+      }
+      figure img {
+          margin-left: 0px;
+      }
+      
+      .description p {
+          height: 300px;
+      }
+      footer {
+          height: 170px;
+      }
+      #banners{
+          width: 80%;
+      }
+      .windowGraphics {
+          width: 80%;
+      }
+      
+  }
+  
+   /*Tablets Landscape*/
+  @media only screen and (min-width:769px) and (max-width:1024px) {
+  #pageOne {
+    display: block;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#subPages {
+    display: block;
+    width: 30%;
+    margin-left: 5px;
+}
+
+#banners{
+      width: 80%;
+  }
+  .windowGraphics {
+      width: 80%;
+  }
+  }
+  
+  @media only screen and (min-width:1900px) and (max-width:2300px){
+#pageOne {
+    display: block;
+    width: 33%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#firstPageHeading {
+/*    font-size: 9.5em;*/
+    
+}
+#firstPageName {
+    text-align: left;
+    font-family: Arial;
+/*    font-size: 2.5em;*/
+    margin-top: -50px;
+} 
+#subPages {
+    display: block;
+    width: 25%;
+    margin-left: 5px;;
+    
+}
+#subPageHeading {
+/*    font-size: 9.5em;*/
+   padding-top: 15%;
+}
+#subPageName {
+/*    font-size: 2.5em;*/
+    margin-top: -50px;
+    margin-bottom: 15%;
+}
+.navCircle {
+      width: 180px;
+      height: 180px;
+      margin-left: 3%;
+      margin-top: .5%;
+      border-radius: 90px;
+      margin-left: 2.2%;
+ 
+  }
+.navCircle a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5em;
+  }
+  }
