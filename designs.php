@@ -31,8 +31,8 @@
     <h1>Designs</h1>
     <h3>Click to view examples of web sites:</h3>
     
-    <a href="http://www.topallergyfreerecipes.com/salmon" id="link" target="_blank">Salmon River website (fictional site done for school)</a><br>
-    <a href="http://www.topallergyfreerecipes.com/sitePlan.php" id="link" target="_blank">Site Plan</a><br>
+    <a href="http://lizswebcreations.com/salmon/index.php" id="link" target="_blank">Salmon River website (fictional site done for school)</a><br>
+    <a href="http://sandbox.topallergyfreerecipes.com/sitePlan.php" id="link" target="_blank">Site Plan</a><br>
     <a href="http://www.topallergyfreerecipes.com" id="link" target="_blank">Recipe site that is still a work in progress</a><br>
     <h3>Below is a link to some of my designs on scribd.com</h3>
     <a href="https://www.scribd.com/doc/306762197/Portfolio-Liz-Hagey" id="link" target="_blank">Design Portfolio</a>

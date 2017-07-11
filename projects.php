@@ -21,7 +21,7 @@
         <a href="http://www.enchantedmomentslv.com" class="link" target="_blank"><img class="projectsPhoto" src="/media/EnchantedSite.gif" alt="Enchanted Moments"/></a>
         <br>
         <p class="projectsPara">Salmon River website (fictional site done for school)</p>
-        <a href="http://www.topallergyfreerecipes.com/salmon" class="link" target="_blank"><img class="projectsPhoto" src="/media/salmonSite.JPG" alt="Salmon River"/></a>
+        <a href="http://lizswebcreations.com/salmon/index.php" class="link" target="_blank"><img class="projectsPhoto" src="/media/salmonSite.JPG" alt="Salmon River"/></a>
         <br>
         <p class="projectsPara">Allergy Free Web Site (Work in progress)</p>
         <a href="http://www.topallergyfreerecipes.com" class="link" target="_blank"><img class="projectsPhoto" src="/media/recipeSite.JPG" alt="Recipe Site"/></a>
